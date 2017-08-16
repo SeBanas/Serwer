@@ -1,0 +1,7 @@
+Whole programm works based on processing file input requested by browser. After specifying path to main server folder
+and main DataBase adress server looks for files. To acces DataBase user must wrtie to file specific functions by pattern
+<SDB>(function)</SDB> and  Valid basic functions are:
+sendData(): Requires name,message parameters.
+receiveDataByName(); Requires names parameter.
+receiveDataByDate(); Requires date1,date2 parameters dates are ordered by timeline. Date format YYYY-MM-DD
+User must give parameters by GET for valid server response. Order of parameters given above must be preserved.

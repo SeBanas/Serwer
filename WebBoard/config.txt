@@ -1,0 +1,6 @@
+666
+4
+C:\Users\Dell\Desktop/JavaProjectExample
+jdbc:h2:tcp://localhost/~/test3
+sa
+
